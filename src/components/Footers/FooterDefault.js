@@ -15,46 +15,34 @@ function FooterDefault() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=nuk-pro-react-footer-default"
-                  target="_blank"
+                  href="/"
                 >
-                  Creative Tim
+                  Lil Data Monster
                 </a>
               </li>
               <li>
                 <a
-                  href="http://presentation.creative-tim.com?ref=nuk-pro-react-footer-default"
-                  target="_blank"
+                  href="/#about"
                 >
                   About Us
                 </a>
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com?ref=nuk-pro-react-footer-default"
-                  target="_blank"
+                  href="/contact"
                 >
-                  Blog
+                  Contact Us
                 </a>
               </li>
             </ul>
           </nav>
           <div className="copyright" id="copyright">
-            © {new Date().getFullYear()}, Designed by{" "}
             <a
-              href="https://www.invisionapp.com?ref=creativetim"
-              target="_blank"
+              href="/"
             >
-              Invision
+              Lil Data Monster
             </a>
-            . Coded by{" "}
-            <a
-              href="https://www.creative-tim.com?ref=nuk-pro-react-footer-default"
-              target="_blank"
-            >
-              Creative Tim
-            </a>
-            .
+            {" "} © {new Date().getFullYear()}
           </div>
         </Container>
       </footer>

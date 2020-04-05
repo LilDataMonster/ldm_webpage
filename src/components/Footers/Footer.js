@@ -13,24 +13,21 @@ function Footer() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=nuk-pro-react-footer"
-                  target="_blank"
+                  href="/"
                 >
                   Lil Data Monster
                 </a>
               </li>
               <li>
                 <a
-                  href="http://presentation.creative-tim.com?ref=nuk-pro-react-footer"
-                  target="_blank"
+                  href="/#about"
                 >
                   About Us
                 </a>
               </li>
               <li>
                 <a
-                  href="http://blog.creative-tim.com?ref=nuk-pro-react-footer"
-                  target="_blank"
+                  href="/contact"
                 >
                   Contact Us
                 </a>
@@ -39,8 +36,7 @@ function Footer() {
           </nav>
           <div className="copyright" id="copyright">
             <a
-              href="https://www.invisionapp.com?ref=creativetim"
-              target="_blank"
+              href="/"
             >
               Lil Data Monster
             </a>

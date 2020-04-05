@@ -17,18 +17,16 @@ import {
 function Teams() {
   return (
     <>
-      <div className="cd-section" id="teams">
+      <div className="cd-section" id="about">
         <div
           className="team-2"
         >
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Meet the Team</h2>
+                <h2 className="title">About Us</h2>
                 <h4 className="description">
-                  This is the paragraph where you can write more details about
-                  your team. Keep you user engaged by providing meaningful
-                  information.
+                  Some description to talk about us here.
                 </h4>
               </Col>
             </Row>

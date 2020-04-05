@@ -55,22 +55,22 @@ const items = [
     caption: ""
   },*/
   {
-    src: "url(" + require("../../assets/img/bg15.jpg") + ")",
+    src: "url(" + require("../../assets/img/header/net.jpg") + ")",
     content: (
       <Row>
         <Col className="ml-auto mr-auto text-center" md="8">
           <h1 className="title">Lil Data Monster</h1>
-          <h4 className="description">
-            Collecting the littliest of data all across the land.
-          </h4>
+          <h2 className="description">
+            Collecting the littlest of data all across the land and sea.
+          </h2>
           <br></br>
-          <h5>Connect with us on:</h5>
+          <h5>Check us out:</h5>
           <div className="buttons">
             <Button
-              className="btn-icon btn-neutral btn-round mt-2 mr-1"
-              color="danger"
+              className="btn-icon btn-neutral btn-round mt- mr-1"
+              color="info"
+              target="_blank"
               href="https://github.com/LilDataMonster"
-              //onClick={e => e.preventDefault()}
             >
               <i className="fab fa-github"></i>
             </Button>
@@ -80,25 +80,22 @@ const items = [
     ),
     altText: "",
     caption: ""
-  },/*
+  },
   {
-    src: "url(" + require("../../assets/img/bg17.jpg") + ")",
+    src: "url(" + require("../../assets/img/header/data.jpg") + ")",
     content: (
       <Row>
         <Col className="text-left" md="6">
-          <h1 className="title">Arctic Sea ice.</h1>
+          <h1 className="title">Innovative IoT</h1>
           <h4 className="description">
-            According to the National Oceanic and Atmospheric Administration,
-            Ted Scambos, NSIDC lead scientist, puts the potentially record low
-            maximum sea ice extent this year down to low ice extent in the
-            Pacific and a late drop in ice extent in the Barents Sea.
+            Something here. Internet. Thing. Thing. Thing. Thing.
           </h4>
           <br></br>
           <div className="buttons">
             <Button
               className="btn-neutral mr-1"
               color="info"
-              href="#pablo"
+              href="/"
               onClick={e => e.preventDefault()}
               size="lg"
             >
@@ -106,7 +103,7 @@ const items = [
             </Button>
             <Button
               color="info"
-              href="#pablo"
+              href="/"
               onClick={e => e.preventDefault()}
               size="lg"
             >
@@ -118,7 +115,7 @@ const items = [
     ),
     altText: "",
     caption: ""
-  }*/
+  }
 ];
 
 function Headers() {
@@ -159,8 +156,8 @@ function Headers() {
           }}
         />
       ) : null}
-      <div className="cd-section" id="headers">
-        <div className="header-3">
+      <div>
+        <div>
           <Navbar
             className="navbar-transparent bg-info navbar-absolute"
             expand="lg"
@@ -193,7 +190,7 @@ function Headers() {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="/about" onClick={e => e.preventDefault()}>
+                    <NavLink href="/#about">
                       About Us
                     </NavLink>
                   </NavItem>
@@ -226,7 +223,7 @@ function Headers() {
                         backgroundImage: item.src
                       }}
                     ></div>
-                    <div className="content">
+                    <div className="content" style={{margin: "12%"}}>
                       <Container className="text-left">
                         {item.content}
                       </Container>
