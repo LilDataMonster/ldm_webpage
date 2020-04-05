@@ -8,7 +8,7 @@ import ScrollTransparentNavbar from "../components/Navbars/ScrollTransparentNavb
 import PresentationHeader from "../components/Headers/PresentationHeader.js";
 import FooterBlack from "../components/Footers/FooterBlack.js";
 
-import Teams from "../views/presentation-sections/Teams.js";
+import Teams from "../components/Sections/Teams.js";
 
 function Presentation() {
   React.useEffect(() => {
